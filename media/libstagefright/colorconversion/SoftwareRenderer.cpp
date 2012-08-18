@@ -75,10 +75,10 @@ SoftwareRenderer::SoftwareRenderer(
                 bufHeight = (mCropHeight + 1) & ~1;
                 break;
             }
-#endif
 
             // fall through.
         }
+#endif
 
         default:
             halFormat = HAL_PIXEL_FORMAT_RGB_565;
